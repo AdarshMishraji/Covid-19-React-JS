@@ -1,0 +1,8 @@
+@media screen and (max-width: 850px){
+    #view{
+         margin-left: 50px;
+    }
+    input{
+        width: 230px
+    }
+}

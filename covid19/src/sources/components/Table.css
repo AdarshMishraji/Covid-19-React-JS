@@ -1,0 +1,49 @@
+#modeSelector{
+    background-color: white;
+    border-width: 0;
+}
+
+table{
+    margin: 20px;
+}
+
+td{
+    text-align: right;
+    width: 100;
+    padding: 5px;
+}
+
+#tbody tr:nth-child(odd){
+  background-color:darkgray;
+}
+
+#tbody tr:nth-child(even) {
+  background-color:lavender;
+}
+
+#thead tr th{
+    justify-content: center;
+}
+
+#thead select{
+    background-color: cadetblue;
+    font-weight: bold;
+
+}
+
+#thead {
+    background-color: cadetblue;
+}
+
+#tbody{
+    height: 500px;
+    overflow-y: scroll;
+}
+
+#tableView  {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: cadetblue;
+    margin-left: 100px; 
+}
